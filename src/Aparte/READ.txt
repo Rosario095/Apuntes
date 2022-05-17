@@ -1,0 +1,8 @@
+Para poder iniciar un servidor para poder mostrarlo, hay que hacer lo siguiente (mediante comandos):
+
+1) cd hasta acceder a la carpeta del proyecto
+2) npm start
+
+Por supuesto, hay que tener asegurado que este instalado notejs -> https://nodejs.org 
+
+Tendría que abrir, posteriormente, el navegador con el servidor abierto.
