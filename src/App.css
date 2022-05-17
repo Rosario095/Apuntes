@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
+/* APUNTES LARAVEL y VARIOS */
+.php { color: #F5B041; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.verde { color:green; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.azul { color:blue; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.rojo { color:red; }
 
-.App-link {
-  color: #61dafb;
-}
+.comment { 
+    color:#817d74; 
+    font-style: italic;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.dolar { color:#154360; }
+
+.code { color:#c9be62; }
+
+.other { color:#E91E63;}
+
+.tachado { text-decoration:line-through; }
+
+table{ 
+    color: white;
+    background-color:black;
+    border:1px solid white; }
+
+table th { border-left:1px solid white; }
+
+table thead { border-bottom:1px solid white; }
+
+h1, h4 { background-color: #7DCEA0; }
+
+h2 { background-color: #ABEBC6;}
+
+h4 { background-color: #D5F5E3;}
+
+/* APUNTES AXIOS */
+.import { color:purple; }
+
+.class { color:#28B463; }
+
+.func { color:#F4D03F; }
+
+.component { color:#2874A6; }
+
+.codeAO { color:#154360; }
+
+.codeAC { color:#5DADE2; }
+
+.url { color:#D35400; }
+
+/* CÓDIGOS ESTADO */
+.codigo { color:darkblue; }
+
+.web { color:darkgreen; }
+
+.metodo { color:darkmagenta; }
+
+.local { color:#85C1E9; }
