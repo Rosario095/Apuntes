@@ -14,15 +14,8 @@ export default class Get extends React.Component {
                         <Accordion.Body>
                             <h2>Realizar una solicitud GET</h2>
                             <p>Lo primero que haremos será crear un componente, usaremos para todos nuestros ejemplo una lista de personas (<b><i>PersonList.js</i></b>)</p>
-                            <p>Para explicarlo mejor, primero desarrollaremos el componente</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>PersonList</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={get} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <p>Para explicarlo mejor, primero desarrollaremos el componente:</p>
+                            <img src={get} alt="code" />
                             <br />
                             <p>Primero importamos <b>react</b> y <b>Axios</b>.<br />
                                 Enlazaremos la <b>API</b> que queramos consultar en <b><i>componentDidMount</i></b> y realizaremos la

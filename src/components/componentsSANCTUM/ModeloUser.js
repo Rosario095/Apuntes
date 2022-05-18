@@ -15,14 +15,8 @@ export default class ModeloUser extends React.Component {
                             <h2>Agregar trait a modelo User</h2>
                             <p>Con el editor de textos abrimos el archivo <b><i>app/Models/User.php</i></b> para verificar que el trait ‘HasApiTokens’ este definido, sino, hay que
                                 definirlo de la siguiente manera:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>User.php</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={user} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                                <img src={user} alt="code" />
+
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

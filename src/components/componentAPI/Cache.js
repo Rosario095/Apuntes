@@ -20,7 +20,7 @@ export default class Cache extends React.Component {
                             Un ejemplo de esto podemos verlo en este extracto del controlador de Fabricante</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>FabricanteController</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: FabricanteController</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={cache} alt="code" />
                                     </Accordion.Body>

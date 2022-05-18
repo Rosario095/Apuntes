@@ -39,15 +39,8 @@ export default class Expresiones extends React.Component {
                             <p>Si se hace de un objeto con varios elementos, se pondran cada uno a continuación del otro, sabiendo el
                                 elemento al que pertenecen</p>
                             <p><b className="verde">Fragmento</b>: Elemento JSX que nunca se va a traducir en un elemento HTML.</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Comp</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={expr6} alt="code" /><br /><img src={expr7} alt="code" /><br /><img src={expr8} alt="code" />
+                            <img src={expr6} alt="code" /><br /><img src={expr7} alt="code" /><br /><img src={expr8} alt="code" />
                                         <p>No opera sabiendo que ambos elementos son elementos hermano.</p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
 
                         </Accordion.Body>
                     </Accordion.Item>

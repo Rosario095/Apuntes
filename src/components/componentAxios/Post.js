@@ -14,14 +14,7 @@ export default class Post extends React.Component {
                         <Accordion.Body>
                             <h2>Realizar una solicitud POST</h2>
                             <p>Para explicarlo mejor, primero desarrollaremos el componente:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>PersonList</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={post} alt="code"/>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={post} alt="code"/>
                             <br />
                             <p>Dentro de la función <b><i>handleSubmit</i></b>, evitar la acción predeterminada del formulario.<br/>
                             Actualizar el <b>estado</b> para la entrada <b><i>user</i></b>.<br/>

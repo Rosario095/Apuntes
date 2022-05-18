@@ -22,14 +22,15 @@ export default class Modelos extends React.Component {
                             <p>Plantilla base:</p>
                             <img src={model_base} alt="code"/>
                             <br />
-                            <p>Ejemplo:</p>
-                            <img src={model_avion} alt="code" />
-                            <br />
-                            <p>Con eso, podemos configurar todos los datos de nuestra futura tabla; siguiendo el ejemplo anterior, quedaría de la siguiente forma:</p>
+                            <p>Sabiendo esto, solo debemos cambiar <b className="verde">nombre_model</b> por el nombre que necesitemos
+                            y escribir los datos necasrios para nuestro modelo, recordando que seran los futuros datos para nuestra tabla.</p>
+
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Avion.php</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: Avion.php</Accordion.Header>
                                     <Accordion.Body>
+                                    <img src={model_avion} alt="code" /><br/>
+                                    +-----------------------------------------------------------------------------+
                                     <img src={model_avion_ej} alt="code"/>
                                     </Accordion.Body>
                                 </Accordion.Item>

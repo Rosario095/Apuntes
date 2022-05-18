@@ -2,11 +2,11 @@ import React from "react";
 import { Accordion } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Imagenes
-import arrow from '../../../img/react_ap/fundamentos/javascript/arrow.jpg';
-import string from '../../../img/react_ap/fundamentos/javascript/string.jpg';
-import destruct from '../../../img/react_ap/fundamentos/javascript/destruct.jpg';
-import class1 from '../../../img/react_ap/fundamentos/javascript/class1.jpg';
-import class2 from '../../../img/react_ap/fundamentos/javascript/class2.jpg';
+import arrow from '../../../img/react_ap/fundamentos/javascri/arrow.jpg';
+import string from '../../../img/react_ap/fundamentos/javascri/string.jpg';
+import destruct from '../../../img/react_ap/fundamentos/javascri/destruct.jpg';
+import class1 from '../../../img/react_ap/fundamentos/javascri/class1.jpg';
+import class2 from '../../../img/react_ap/fundamentos/javascri/class2.jpg';
 
 export default class Identifiers extends React.Component {
     render() {
@@ -36,14 +36,7 @@ export default class Identifiers extends React.Component {
                             <img src={destruct} alt="code" />
 
                             <h4>Clases y módulos</h4>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header><b>Clases y módulos</b></Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={class1} alt="code" /> <img src={class2} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={class1} alt="code" /> <img src={class2} alt="code" />
 
                         </Accordion.Body>
                     </Accordion.Item>

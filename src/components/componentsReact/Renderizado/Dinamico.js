@@ -30,15 +30,8 @@ export default class Dinamico extends React.Component {
                             mostraría la otra (<b className="code">'Cheers'</b>). Esto es lo que nos indica los dos puntos.</p>
 
                             <h4>Switch</h4>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Switch</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={dinam4} alt="code" />
+                            <img src={dinam4} alt="code" />
                                     <p>Va haciendo comprobaciones y para cuando se encuentra en la que corresponda.</p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
 
                         </Accordion.Body>
                     </Accordion.Item>

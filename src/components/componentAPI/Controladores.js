@@ -20,14 +20,10 @@ export default class Controladores extends React.Component {
                                 +----------------------------------------------------------------+ <br /></p>
                             <p>Con eso, tendríamos los ficheros necesarios en el direcctorio <b><i>app/Http/Controllers/</i></b></p>
                             <p>El fichero que se generarían seria algo como esto (en caso de ser de una simple tabla)</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>NombretablaController</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={controller} alt="code"/>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={controller} alt="code"/>
+                            <p>* <b className="verde">nombre_tabla</b> habría que sustituirlo por la tabla correspondiente, usando 
+                            nuestros ejemplos anteriores, quedaría algo así: <b className="verde">AvionController</b></p>
+
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

@@ -21,38 +21,17 @@ export default class Seeding extends React.Component {
                                 <br /><i>$ php artisan make:seeder ArticlesTableSeeder</i>
                                 <br />+---------------------------------------------+</p>
                             <p>Se localiza en <b><i>/database/seeds</i></b>. Acontinuación veremos como se vería para crear nuevos artículos:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>ArticleTableSeeder</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={ArticleTS} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={ArticleTS} alt="code" />
                             <br />
                             <p>Ejecutamos el comando:
                                 <br />+---------------------------------------------+
                                 <br /><i>$ php artisan db:seed --class=ArticleTableSeeder</i>
                                 <br />+---------------------------------------------+</p>
                             <p>Podemos repetir este proceso para crear otros, por ejemplo, vamos a crear uno para usuarios:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>UserTableSeeder</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={UserTS} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={UserTS} alt="code" />
                             <br />
                             <p>Podemos hacerlo más fácil añadiendo nuetras "semillas" al principal <b>DatabaseSeeder</b> en <b><i>database/seeds</i></b></p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>DatabaseSeeder</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={DatabaseS} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={DatabaseS} alt="code" />
                             <br />
                             <p>Con esto llamamos a <b><i>$ php artisan db:seed</i></b> y ejecutaran todas las clases del método <b>run()</b>.</p>
                         </Accordion.Body>

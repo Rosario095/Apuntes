@@ -35,51 +35,47 @@ export default class Rutas extends React.Component {
                             <br />
                             <p>Con el listado de rutas, nos tendría que mostrar a continuación algo como esto:</p>
                             +--------------------------------------------------------+
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>Domain</th>
-                                                    <th>Method</th>
-                                                    <th>URI</th>
-                                                    <th>Name</th>
-                                                    <th>Action</th>
-                                                    <th>Middleware</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th></th>
-                                                    <th>GET|HEAD</th>
-                                                    <th>/</th>
-                                                    <th></th>
-                                                    <th>Closure</th>
-                                                    <th>web</th>
-                                                </tr>
-                                                <tr>
-                                                    <th></th>
-                                                    <th>GET|HEAD</th>
-                                                    <th>api/user</th>
-                                                    <th></th>
-                                                    <th>Closure</th>
-                                                    <th>api,auth:api</th>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        +--------------------------------------------------------+
+                            <div className="table-responsive-sm">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Domain</th>
+                                            <th>Method</th>
+                                            <th>URI</th>
+                                            <th>Name</th>
+                                            <th>Action</th>
+                                            <th>Middleware</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <th>GET|HEAD</th>
+                                            <th>/</th>
+                                            <th></th>
+                                            <th>Closure</th>
+                                            <th>web</th>
+                                        </tr>
+                                        <tr>
+                                            <th></th>
+                                            <th>GET|HEAD</th>
+                                            <th>api/user</th>
+                                            <th></th>
+                                            <th>Closure</th>
+                                            <th>api,auth:api</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            +--------------------------------------------------------+
                             <br />
                             <h4>Rutas por defecto de la Aplicación</h4>
                             <p>Antes de empezar a explicar, vamos a tener en cuenta de que las explicaciones se harán
                                 partiendo del ejemplo que se ha ido partiendo todo el rato..</p>
                             <p>Editaremos el fichero <b><i>routes/api.php</i></b> añadiendo las rutas a los recursos de controladores RESTful creados
                                 anteriormente (en nuestro caso, Fabricante y Avion)</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>api.php</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={api} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={api} alt="code" />
                             <br />
                             <Accordion>
                                 <Accordion.Item eventKey="0">
@@ -92,13 +88,14 @@ export default class Rutas extends React.Component {
                             <br />
                             <p>Partiendo de esto, podemos ver que podremos crear un avión, pero no podemos pasarle la id de un fabricante,
                                 por lo que habría que añadir esto:</p>
+                            +-------------------------------------------------------------------+
+                            <br /><b>Route::<b className="code">resource</b>(<b className="rojo">'fabricantes.aviones','FabricanteAvionController'</b>);</b>
+                            <br />+-------------------------------------------------------------------+
                             <Accordion>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Rutas</Accordion.Header>
                                     <Accordion.Body>
-                                        +-------------------------------------------------------------------+
-                                        <br /><b>Route::<b className="code">resource</b>(<b className="rojo">'fabricantes.aviones','FabricanteAvionController'</b>);</b>
-                                        <br />+-------------------------------------------------------------------+
+
                                         <br />
                                         <img src={ruta2} alt="code" />
                                     </Accordion.Body>

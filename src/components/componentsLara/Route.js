@@ -19,44 +19,23 @@ export default class Route extends React.Component {
                             <h2>Routes and Controllers</h2>
                             <p>Vamos a crear unos básicos endpoints, estos serán: crear, recuperar la lista, recuperar uno solo, actualizar y
                                 eliminar. Para ello accederemos al archivo <b><i>routes/api.php</i></b></p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>api.php</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={api} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={api} alt="code" />
                             <br />
                             <p>Ahora vamos a crearle un controlador propio:
                                 <br />+-----------------------------------------------+
                                 <br /><i>$ php artisan make:controller ArticleController</i>
                                 <br />+-----------------------------------------------+</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>api.php</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={ArticleController} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={ArticleController} alt="code" />
                             <br />
                             <p>En el archivo <b><i>route/api.php</i></b></p>
                             <img src={routes} alt="code" />
                             <br />
                             <p>Automáticamente, si existe algún tipo de error, si no lo encuentra, nos mandará el <b>404</b>, y nosotros podemos
-                            configurarlo para que, con cada función, nos mande un aviso para saber que todo se ha realizado correctamente. Se 
-                            modificará el <b>return</b> quedando de la siguiente manera:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>ArticleController</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={routes2} alt="code" />
-                                        <br />+-----------------------------------------------------------------------------------------------+
-                                        <br/><img src={ArticleC} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                                configurarlo para que, con cada función, nos mande un aviso para saber que todo se ha realizado correctamente. Se
+                                modificará el <b>return</b> quedando de la siguiente manera:</p>
+                            <img src={routes2} alt="code" />
+                            <br />+-----------------------------------------------------------------------------------------------+
+                            <br /><img src={ArticleC} alt="code" />
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

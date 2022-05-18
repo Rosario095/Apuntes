@@ -14,15 +14,7 @@ export default class CVFunc extends React.Component {
                         <Accordion.Header><b>Ciclo de vida de los componentes funcionales</b></Accordion.Header>
                         <Accordion.Body>
                             <img src={cvfunc1} alt="code" />
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header><b>Function</b></Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={cvfunc2} alt="code" />
-
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={cvfunc2} alt="code" />
 
                         </Accordion.Body>
                     </Accordion.Item>

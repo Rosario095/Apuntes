@@ -25,18 +25,24 @@ export default class Estilo extends React.Component {
 
                             <h4>¿Real encapsulación?</h4>
                             <img src={est3} alt="image" />
-                            <p>El estilo se verá aplicado a cada una de las clases que posean el mismo nombre.</p><br/>
+                            <p>El estilo se verá aplicado a cada una de las clases que posean el mismo nombre.</p><br />
                             <img src={est4} alt="image" /> <img src={est5} alt="image" />
 
                             <p>Una manera extrategia es la combinación de estas piezas. Solo hay que evitar que los bloques se nombren igual.</p>
-                            <img src={est6} alt="image" /> <br/>
+                            <img src={est6} alt="image" /> <br />
 
                             <p><b className="rojo">Ej</b>: si tenemos dos iconos, el nombrarlo de esta manera, no chocaría, pues este
-                            estilo pertenecería a un icono dentro de un botón, por lo que solo se vería afectado el icono que estuviese
-                            dentro del botón</p>
+                                estilo pertenecería a un icono dentro de un botón, por lo que solo se vería afectado el icono que estuviese
+                                dentro del botón</p>
 
-                            <h4>Component // style.css</h4>
-                            <img src={est7} alt="code" /> <img src={est8} alt="code" />
+                            <Accordion>
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>Ejemplo Component // style.css</Accordion.Header>
+                                    <Accordion.Body>
+                                        <img src={est7} alt="code" /> <img src={est8} alt="code" />
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            </Accordion>
 
                         </Accordion.Body>
                     </Accordion.Item>

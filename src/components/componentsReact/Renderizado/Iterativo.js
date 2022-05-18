@@ -32,14 +32,7 @@ export default class Iterativo extends React.Component {
                             <p>El coste computacional, de la segunda manera, sería menor pues, al realizar primero el filtrado, tendría
                                 menos que modificar.</p>
                             <h4>Claves únicas</h4>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>CLAVES</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={itr4} alt="image4" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={itr4} alt="image4" />
                             <br />
                             <p>Las claves únicas son un modo para saber más facilmente, y con mayor rendimiento, los elementos
                                 cambiados o eliminados. <br /> No es recomendable usar el índice como clave única, pues cuando se

@@ -25,14 +25,7 @@ export default class Delegado extends React.Component {
                             <img src={delg3} alt="code" />
                             <p>Pueden llamar a funciones <b>callback</b> para realizar los cambios de estado.<br />
                                 Puede llegarse a un estado global de la aplicación:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header><b>Código</b></Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={delg4} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                                <img src={delg4} alt="code" />
 
                         </Accordion.Body>
                     </Accordion.Item>

@@ -14,14 +14,7 @@ export default class Login extends React.Component {
                         <Accordion.Body>
                             <h2>Crear método login</h2>
                             <p>Volvemos a <b><i>app/Http/Controllers/AuthController.php</i></b> y creamos un nuevo método, que será <b><i>login</i></b></p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Función login</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={login} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={login} alt="code" />
                             <br />
                             <p>Terminado esto, recordemos crear una ruta para el método <i>login</i> en el archivo <b><i>routes/api.php</i></b><br />
                                 +--------------------------------------------------------+ <br />

@@ -36,21 +36,14 @@ export default class Instalacion extends React.Component {
                             <p>Podemos revisar el archivo de configuración de Sanctum en la ruta <i>confing/sanctum.php</i></p>
                             <p>Y el archivo con la migración de Sanctum en <b><i>database/migrations</i></b></p>
                             <p>Hay que recordar modificar el archivo <b><i>.env</i></b> para que se pueda conectar a la base de datos</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>.env</Accordion.Header>
-                                    <Accordion.Body>
-                                        +--------------------------------------------------------+
-                                        <br /><b>DB_CONNECTION=mysql
-                                            <br />DB_HOST=127.0.0.1
-                                            <br />DB_PORT=3306
-                                            <br />DB_DATABASE=(Nombre de la base de datos)
-                                            <br />DB_USERNAME=(Nombre user, por defecto es "root")
-                                            <br />DB_PASSWORD=(Contraseña, por defecto esta vacía)</b>
-                                        <br />+--------------------------------------------------------+
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            +--------------------------------------------------------+
+                            <br /><b>DB_CONNECTION=mysql
+                                <br />DB_HOST=127.0.0.1
+                                <br />DB_PORT=3306
+                                <br />DB_DATABASE=(Nombre de la base de datos)
+                                <br />DB_USERNAME=(Nombre user, por defecto es "root")
+                                <br />DB_PASSWORD=(Contraseña, por defecto esta vacía)</b>
+                            <br />+--------------------------------------------------------+
                             <br />
                             <p>Ahora pasamos a correr las migraciones con este comando:
                                 <br />+-------------------+

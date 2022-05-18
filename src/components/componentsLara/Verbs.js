@@ -23,8 +23,8 @@ export default class Verbs extends React.Component {
                                 <img src={verb} alt="image" />
                             </ul>
                             <h2>Resources</h2>
-                            <p>Los recursos son los objetivos de las acciones, y tienen sus propios endpoints.</p>
-                            <p>La representación de los recursos se puede representar en más de un modelo de datos, o no ser representados en
+                            <p>Los recursos son los objetivos de las acciones, y tienen sus propios endpoints.
+                            <br/>La representación de los recursos se puede representar en más de un modelo de datos, o no ser representados en
                                 ninguna parte de la base de datos y los modelos completamente fuera del límite del usuario.</p>
                         </Accordion.Body>
                     </Accordion.Item>

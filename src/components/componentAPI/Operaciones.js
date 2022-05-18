@@ -22,7 +22,7 @@ export default class Preparacion extends React.Component {
                                 solo la parte del código que estamos configurando, la vista de la estructura entera esta en el apartado de Controladores).</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>index() y show()</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: index() y show()</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={index} alt="code"/>
                                     </Accordion.Body>
@@ -34,7 +34,7 @@ export default class Preparacion extends React.Component {
                                 utilizando la petición HTTP POST a la API RESTful.</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>store()</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: store()</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={store} alt="code"/>
                                     </Accordion.Body>
@@ -46,7 +46,7 @@ export default class Preparacion extends React.Component {
                                 utilizando las peticiones PUT (actualización total) o PARCH (solo algunos datos)</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>update()</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: update()</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={update} alt="code"/>
                                     </Accordion.Body>
@@ -57,7 +57,7 @@ export default class Preparacion extends React.Component {
                             <p>Solo nos queda implementar para eliminar registros, para ello usaremos la petición DELETE.</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>destroy()</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: destroy()</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={destroy} alt="code"/>
                                     </Accordion.Body>

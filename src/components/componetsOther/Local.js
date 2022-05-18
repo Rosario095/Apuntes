@@ -11,64 +11,40 @@ export default class Local extends React.Component {
                         <Accordion.Header><b>Windows LocalStorage</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Windows LocalStorage</h2>
-                            <p>localStorage.setItem("lastname", "Smith");<br/>localStorage.getItem("lastname");</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Save Data to Local Storage</Accordion.Header>
-                                    <Accordion.Body>
-                                        +--------------------------------------------------------+
-                                        <b><br /><p>localStorage.setItem(key, value);</p>
-                                        <ul>
-                                            <li><b className="php">key</b> es la palabra clave, con ejemplo sería: "nombre", "curso",...</li>
-                                            <li><b className="php">value</b> es el valor que proporcionamos, con ejemplo sería "Rosario", 
-                                            "react",...</li>
-                                        </ul>
-                                        </b>+--------------------------------------------------------+
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <p>localStorage.setItem("lastname", "Smith");<br />localStorage.getItem("lastname");</p>
+                            <h4>Save Data to Local Storage</h4>
+                            +--------------------------------------------------------+
+                            <b><br /><p>localStorage.setItem(key, value);</p>
+                                <ul>
+                                    <li><b className="php">key</b> es la palabra clave, con ejemplo sería: "nombre", "curso",...</li>
+                                    <li><b className="php">value</b> es el valor que proporcionamos, con ejemplo sería "Rosario",
+                                        "react",...</li>
+                                </ul>
+                            </b>+--------------------------------------------------------+
 
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Read Data to Local Storage</Accordion.Header>
-                                    <Accordion.Body>
-                                        +--------------------------------------------------------+
-                                        <b><br /><p>localStorage.getItem(key);</p>
-                                        <ul>
-                                            <li><b className="php">key</b> es la palabra clave que sse le ha suministrado con anterioridad.</li>
-                                        </ul>
-                                        </b>+--------------------------------------------------------+
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <h4>Read Data to Local Storage</h4>
+                            +--------------------------------------------------------+
+                            <b><br /><p>localStorage.getItem(key);</p>
+                                <ul>
+                                    <li><b className="php">key</b> es la palabra clave que sse le ha suministrado con anterioridad.</li>
+                                </ul>
+                            </b>+--------------------------------------------------------+
 
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Remove Data to Local Storage</Accordion.Header>
-                                    <Accordion.Body>
-                                        +--------------------------------------------------------+
-                                        <b><br /><p>localStorage.removeItem(key);</p>
-                                        <ul>
-                                            <li><b className="php">key</b> es la palabra clave que sse le ha suministrado con anterioridad.</li>
-                                        </ul>
-                                        </b>+--------------------------------------------------------+
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <h4>Remove Data to Local Storage</h4>
+                            +--------------------------------------------------------+
+                            <b><br /><p>localStorage.removeItem(key);</p>
+                                <ul>
+                                    <li><b className="php">key</b> es la palabra clave que sse le ha suministrado con anterioridad.</li>
+                                </ul>
+                            </b>+--------------------------------------------------------+
 
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Remove All (Clear Local Storage)</Accordion.Header>
-                                    <Accordion.Body>
-                                        +--------------------------------------------------------+
-                                        <b><br /><p>localStorage.clear());</p>
-                                        <ul>
-                                            <li>Elimina todos los registros del <i>Local Storage</i></li>
-                                        </ul>
-                                        </b>+--------------------------------------------------------+
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <h4>Remove All (Clear Local Storage)</h4>
+                            +--------------------------------------------------------+
+                            <b><br /><p>localStorage.clear());</p>
+                                <ul>
+                                    <li>Elimina todos los registros del <i>Local Storage</i></li>
+                                </ul>
+                            </b>+--------------------------------------------------------+
 
                         </Accordion.Body>
                     </Accordion.Item>

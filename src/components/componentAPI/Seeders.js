@@ -20,14 +20,7 @@ export default class Seeders extends React.Component {
                                 querramos rellenar). Es importante el orden, pues una tabla puede estar relacionada con otra y necesitaremos los datos de una antes que la de otra (en el ejemplo que estamos siguiendo,
                                 "fabricantes" debe ejecutarse antes que "aviones")</p>
                             <p>Este podría ser un ejemplo de como configurar el archivo:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>DatabaseSeeder.php</Accordion.Header>
-                                    <Accordion.Body>
-                                    <img src={database} alt="code"/>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={database} alt="code"/>
                             <br />
                             <p>Después de ellos, creamos unn fichero Seeder para cada tabla de nuestra base de datos<br />
                                 +---------------------------------------------+ <br />
@@ -47,7 +40,7 @@ export default class Seeders extends React.Component {
                                 podríamos hacer (partimos de nuevo de aviones por ser el que contiene más cosas)</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>AvionSeeder.php</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: vionSeeder.php</Accordion.Header>
                                     <Accordion.Body>
                                     <img src={avion_seeder} alt="code"/>
                                     </Accordion.Body>

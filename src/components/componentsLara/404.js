@@ -19,26 +19,12 @@ export default class Error extends React.Component {
                                 fallos, pues bien, podemos editarlo para que lo que nos mande sea un <b>json</b>. Para ello, realizamos un cambio,
                                 una edición en nuestra clase de excepciones (<b><i>app/Exceptions/Handler.php</i></b>) poniendolo de la
                                 siguiente manera:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Handler.php</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={render} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                                <img src={render} alt="code" />
                             <br />
                             <p>Eso devolvería algo así:</p>
                             <img src={data} alt="image" /><br />
                             <p>Si se utiliza Laravel para servir a otras páginas, hay que modificar el código de la siguiente manera:</p>
-                            <Accordion>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Handler.php</Accordion.Header>
-                                    <Accordion.Body>
-                                        <img src={AController} alt="code" />
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                            <img src={AController} alt="code" />
                             <br/>
                             <p>En este caso, las solicitudes de la API necesitan el encabezado <b><i>Accept: application/json</i></b></p>
                         </Accordion.Body>
