@@ -17,7 +17,7 @@ export default class DataUser extends React.Component {
                             será <b><i>dataUser</i></b></p>
                             <img src={dataUser} alt="code" />
                             <br />
-                            <p>Terminado esto, recordemos crear una ruta para el método <i>dataUser</i> en el archivo <b><i>routes/api.php</i></b><br />
+                            <p>Terminado esto, recordemos crear una ruta para el método <b><i>dataUser</i></b> en el archivo <b><i>routes/api.php</i></b><br />
                                 +----------------------------------------------------------------------------------------+ <br />
                                 <i>Route::post('/datauser', [AuthController::class, 'dataUser'])-^middleware('auth:sanctum');</i><br />
                                 +----------------------------------------------------------------------------------------+ <br /></p>

@@ -13,12 +13,12 @@ export default class Commint extends React.Component {
                         <Accordion.Header><b>Etapa de commint</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Etapa de commint</h2>
-                            <p>1) Install lint-staged and husky
+                            <p>1) Install <b>lint-staged and husky</b>
                                 <br />+------------------------------------+
                                 <br /><i>npm install --dev lint-staged husky</i>
                                 <br />+------------------------------------+
                             </p>
-                            <p>2) Configure the pre-commint hook in package.json</p>
+                            <p>2) Configure the pre-commint hook in <b><i>package.jsons</i></b></p>
                             <img src={husky} alt="code" />
 
                         </Accordion.Body>

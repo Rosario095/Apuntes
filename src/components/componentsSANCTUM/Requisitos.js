@@ -13,8 +13,8 @@ export default class Requisitos extends React.Component {
                             <h2>Requisitos Previos</h2>
                             <p>Contar con un entorno de desarrollo como <b>Laragon</b> o <b>Xampp</b>.<br/>
                             Tener instalado de manera global Composer.<br/>
-                            Contar con un proyecto nuevo en Laravel vinculado a una base de datos.<br/>
-                            Tener la herramienta Postman instalada en tu equipo.</p>
+                            Contar con un proyecto nuevo en <b>Laravel</b> vinculado a una base de datos.<br/>
+                            Tener la herramienta <b>Postman</b> instalada en tu equipo.</p>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

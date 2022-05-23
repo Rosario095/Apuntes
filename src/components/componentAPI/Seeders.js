@@ -14,13 +14,13 @@ export default class Seeders extends React.Component {
                         <Accordion.Header><b>Creación de Seeders para tablas con Laravel y PHP Artisan</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Creación de Seeders para tablas con Laravel y PHP Artisan</h2>
-                            <p>Basicamente, sirve para llenar las tablas con datos.</p>
-                            <p>Se encuentran en la carpeta <b><i>database/seeds</i></b></p>
-                            <p>Para su configuración, primero comenzaremos abriendo el fichero <b><i>database/seeds/DatabaseSeeder.php</i></b>, y escribir todas las llamas que vayan a realizarse (es decir, tantas llamadas como tablas
+                            <p>Basicamente, sirve para llenar las tablas con datos.<br />
+                                Se encuentran en la carpeta <b><i>database/seeds</i></b><br />
+                                Para su configuración, primero comenzaremos abriendo el fichero <b><i>database/seeds/DatabaseSeeder.php</i></b>, y escribir todas las llamas que vayan a realizarse (es decir, tantas llamadas como tablas
                                 querramos rellenar). Es importante el orden, pues una tabla puede estar relacionada con otra y necesitaremos los datos de una antes que la de otra (en el ejemplo que estamos siguiendo,
-                                "fabricantes" debe ejecutarse antes que "aviones")</p>
-                            <p>Este podría ser un ejemplo de como configurar el archivo:</p>
-                            <img src={database} alt="code"/>
+                                "fabricantes" debe ejecutarse antes que "aviones")<br />
+                                Este podría ser un ejemplo de como configurar el archivo:</p>
+                            <img src={database} alt="code" />
                             <br />
                             <p>Después de ellos, creamos unn fichero Seeder para cada tabla de nuestra base de datos<br />
                                 +---------------------------------------------+ <br />
@@ -40,9 +40,9 @@ export default class Seeders extends React.Component {
                                 podríamos hacer (partimos de nuevo de aviones por ser el que contiene más cosas)</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Ejemplo: vionSeeder.php</Accordion.Header>
+                                    <Accordion.Header>Ejemplo: AvionSeeder.php</Accordion.Header>
                                     <Accordion.Body>
-                                    <img src={avion_seeder} alt="code"/>
+                                        <img src={avion_seeder} alt="code" />
                                     </Accordion.Body>
                                 </Accordion.Item>
                             </Accordion>

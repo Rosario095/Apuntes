@@ -15,7 +15,7 @@ export default class Bundling extends React.Component {
                         <Accordion.Header><b>Empaquetado (Bundling)</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Empaquetado (Bundling)</h2>
-                            <p>1) Install Parcel in the project
+                            <p>1) Install <b>Parcel</b> in the project
                                 <br />+--------------------------------------+
                                 <br /><i>npm install --save-dev parcel-bundler</i>
                                 <br />+--------------------------------------+

@@ -25,15 +25,15 @@ export default class Instalacion extends React.Component {
                             <br />+--------------------------------------------------------+
                             <br />
                             <h4>Instalar Laravel Sanctum</h4>
-                            <p>Pasamos a instalar Laravel Sanctum, para ello, escribiremos el siguiente comando mientras nos encontremos en la carpeta raíz de nuestra aplicación:
+                            <p>Pasamos a instalar <b>Laravel Sanctum</b>, para ello, escribiremos el siguiente comando mientras nos encontremos en la carpeta raíz de nuestra aplicación:
                                 <br />+----------------------------------+
                                 <br /><i>composer require laravel/sanctum</i>
                                 <br />+----------------------------------+</p>
-                            <p>Para publicar los archivos de configuración de Sanctum y las migraciones desde la terminal:
+                            <p>Para publicar los archivos de configuración de <b>Sanctum</b> y las migraciones desde la terminal:
                                 <br />+-------------------------------------------------------------------------------------+
                                 <br /><i>php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"</i>
                                 <br />+-------------------------------------------------------------------------------------+</p>
-                            <p>Podemos revisar el archivo de configuración de Sanctum en la ruta <i>confing/sanctum.php</i></p>
+                            <p>Podemos revisar el archivo de configuración de Sanctum en la ruta <b><i>config/sanctum.php</i></b></p>
                             <p>Y el archivo con la migración de Sanctum en <b><i>database/migrations</i></b></p>
                             <p>Hay que recordar modificar el archivo <b><i>.env</i></b> para que se pueda conectar a la base de datos</p>
                             +--------------------------------------------------------+

@@ -19,16 +19,16 @@ export default class Preparacion extends React.Component {
                                 <br />+--------------------------------------------------------------+
                                 <br /><i>composer create_project --prefer-dist laravel/laravel my app</i>
                                 <br />+--------------------------------------------------------------+</p>
-                            <p>Asegurarse de tener los datos en el archivo ".env" correctos para conectarnos a nuestra base de datos
+                            <p>Asegurarse de tener los datos en el archivo <b><i>".env"</i></b> correctos para conectarnos a nuestra base de datos
                                 (es recomendable arreglarlo ahora aunque no se vaya a utilizar ahora conexiones con la base de datos de nuestro proyecto)</p>
-                                +--------------------------------------------------------+
-                                        <br /><b>DB_CONNECTION=mysql
-                                            <br />DB_HOST=127.0.0.1
-                                            <br />DB_PORT=3306
-                                            <br />DB_DATABASE=(Nombre de la base de datos)
-                                            <br />DB_USERNAME=(Nombre user, por defecto es "root")
-                                            <br />DB_PASSWORD=(Contraseña, por defecto esta vacía)</b>
-                                        <br />+--------------------------------------------------------+
+                            +--------------------------------------------------------+
+                            <br /><b>DB_CONNECTION=mysql
+                                <br />DB_HOST=127.0.0.1
+                                <br />DB_PORT=3306
+                                <br />DB_DATABASE=(Nombre de la base de datos)
+                                <br />DB_USERNAME=(Nombre user, por defecto es "root")
+                                <br />DB_PASSWORD=(Contraseña, por defecto esta vacía)</b>
+                            <br />+--------------------------------------------------------+
                             <br />
                             <p>Ayuda sobre los comandos de PHP Artisan:<br />
                                 +-------------+ <br />

@@ -125,10 +125,3 @@ export default class Navbars extends React.Component {
     );
   }
 }
-
-/*<NavDropdown title="React" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#fundamentos">Fundamentos y origen</NavDropdown.Item>
-                  <NavDropdown.Item href="#creacion">Crear una aplicación en React</NavDropdown.Item>
-                  <NavDropdown.Item href="#renderizado">Renderizado de componentes en el DOM</NavDropdown.Item>
-                  <NavDropdown.Item href="#estado">Comunicación y estado de los componentes</NavDropdown.Item>
-                </NavDropdown>*/

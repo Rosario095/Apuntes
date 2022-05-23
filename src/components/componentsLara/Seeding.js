@@ -33,7 +33,7 @@ export default class Seeding extends React.Component {
                             <p>Podemos hacerlo más fácil añadiendo nuetras "semillas" al principal <b>DatabaseSeeder</b> en <b><i>database/seeds</i></b></p>
                             <img src={DatabaseS} alt="code" />
                             <br />
-                            <p>Con esto llamamos a <b><i>$ php artisan db:seed</i></b> y ejecutaran todas las clases del método <b>run()</b>.</p>
+                            <p>Con esto llamamos a <b><i>$ php artisan db:seed</i></b> y ejecutaran todas las clases del método <b><i>run()</i></b>.</p>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

@@ -12,12 +12,12 @@ export default class Dependencias extends React.Component {
                         <Accordion.Header><b>Depedendencias</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Depedendencias</h2>
-                            <p>1) Instalar nodejs
+                            <p>1) Instalar <b>nodejs</b>
                                 <br />+--------------------------+
                                 <br /><i>https://nodejs.org // nvm</i>
                                 <br />+--------------------------+
                             </p>
-                            <p>2) Check NPM version
+                            <p>2) Check <b>NPM</b> version
                                 <br />+-------+
                                 <br /><i>npm -v</i>
                                 <br />+-------+

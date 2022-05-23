@@ -17,11 +17,12 @@ export default class Register extends React.Component {
                                 <br />+--------------------------------------------+
                                 <br /><i>php artisan make:controller AuthController</i>
                                 <br />+--------------------------------------------+</p>
-                            <p>En el controlador que ya se creó, se le añadirá el método <i>register</i>, quien se encargará de registrar y validar usuarios, así como de regresar una
-                                respuesta JSON con el token del usuario y tipo de token (hay que recordar importar el modelo User y el facades Hash)</p>
+                            <p>En el controlador que ya se creó, se le añadirá el método <b><i>register</i></b>, quien se encargará de registrar y validar usuarios, así como de regresar una
+                                respuesta JSON con el token del usuario y tipo de token (hay que recordar importar el modelo <b>User</b> y el facades <b>Hash</b>)</p>
                                 <img src={register} alt="code" />
                             <br />
-                            <p>Terminado esto, recordemos crear una ruta para el método <i>register</i> en el archivo <b><i>routes/api.php</i></b><br />
+                            <p>Terminado esto, recordemos crear una ruta para el método <b><i>register</i></b> en el 
+                            archivo <b><i>routes/api.php</i></b><br />
                                 +---------------------------------------------------------+ <br />
                                 <i>Route::post('/register', [AuthController::class, 'register']);</i><br />
                                 +---------------------------------------------------------+ <br /></p>

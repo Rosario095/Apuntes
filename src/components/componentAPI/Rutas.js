@@ -19,22 +19,21 @@ export default class Rutas extends React.Component {
                         <Accordion.Body>
                             <h2>Creación de las Rutas de la API RESTful</h2>
                             <h4>Rutas por defecto de la Aplicación</h4>
-                            <p>La mayor parte de las rutas de nuestro proyecto se definen en app/Http/routes.php o /routes (nuevas versiones de
+                            <p>La mayor parte de las rutas de nuestro proyecto se definen en <b><i>app/Http/routes.php o /routes</i></b> (nuevas versiones de
                                 Laravel).</p>
                             <img src={ruta} alt="code" />
-                            <br />
-                            <p>La mayor parte de las rutas de nuestro proyecto se definen en app/Http/routes.php o /routes (nuevas versiones de
+
+                            <p>La mayor parte de las rutas de nuestro proyecto se definen en <b><i>app/Http/routes.php o /routes</i></b> (nuevas versiones de
                                 Laravel).</p>
-                            <p><b>Verificar las rutas</b></p>
-                            +--------------------------------------------------------+
-                            <p>//Ayuda sobre php artisan
-                                <br /><b>php artisan list</b>
-                                <br />//Listado de las rutas actuales del proyecto
-                                <br /><b>php artisan route:list </b></p>
-                            +--------------------------------------------------------+
-                            <br />
-                            <p>Con el listado de rutas, nos tendría que mostrar a continuación algo como esto:</p>
-                            +--------------------------------------------------------+
+                            <p><b>Verificar las rutas</b>
+                                <br />+--------------------------------------------------------+
+                                <p>//Ayuda sobre php artisan
+                                    <br /><b>php artisan list</b>
+                                    <br />//Listado de las rutas actuales del proyecto
+                                    <br /><b>php artisan route:list </b></p>
+                                +--------------------------------------------------------+</p>
+                            <p>Con el listado de rutas, nos tendría que mostrar a continuación algo como esto:
+                            <br/>+--------------------------------------------------------+
                             <div className="table-responsive-sm">
                                 <table>
                                     <thead>
@@ -67,8 +66,7 @@ export default class Rutas extends React.Component {
                                     </tbody>
                                 </table>
                             </div>
-
-                            +--------------------------------------------------------+
+                            +--------------------------------------------------------+</p>
                             <br />
                             <h4>Rutas por defecto de la Aplicación</h4>
                             <p>Antes de empezar a explicar, vamos a tener en cuenta de que las explicaciones se harán
@@ -95,7 +93,6 @@ export default class Rutas extends React.Component {
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Rutas</Accordion.Header>
                                     <Accordion.Body>
-
                                         <br />
                                         <img src={ruta2} alt="code" />
                                     </Accordion.Body>

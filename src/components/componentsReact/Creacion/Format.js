@@ -14,14 +14,14 @@ export default class Format extends React.Component {
                         <Accordion.Header><b>Format</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Format</h2>
-                            <p>1) Install Prettier
+                            <p>1) Install <b>Prettier</b>
                                 <br />+---------------------------+
                                 <br /><i>npm install --dev prettier</i>
                                 <br />+---------------------------+
                             </p>
-                            <p>2) Add the script and the preferred rules in package.json</p>
+                            <p>2) Add the script and the preferred rules in <b><i>package.json</i></b></p>
                             <img src={prettier} alt="code" />
-                            <p>3) Add the prettier script to lint staged fired by husky</p>
+                            <p>3) Add the <b>prettier</b> script to lint staged fired by <b>husky</b></p>
                             <img src={staged} alt="code" />
 
                         </Accordion.Body>

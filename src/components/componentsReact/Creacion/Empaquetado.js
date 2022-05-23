@@ -15,7 +15,7 @@ export default class Empaquetado extends React.Component {
                         <Accordion.Header><b>Empaquetado con React</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Empaquetado con React</h2>
-                            <p>1) Install React DOM ans start React
+                            <p>1) Install <b>React DOM</b> and start React
                                 <br />+-----------------------------+
                                 <br /><i>npm install --save react-dom</i>
                                 <br />+-----------------------------+

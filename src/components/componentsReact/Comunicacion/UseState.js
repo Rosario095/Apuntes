@@ -20,7 +20,7 @@ export default class UseState extends React.Component {
                             <p><b>[value, setValue] = useState(defaultValue)</b></p>
                             <p>Esto apareció para que exitiera la posibilidad de que un componente funcional pudiese gestionar su estado, 
                                 el cual, hasta ahora solo podia ser gestionado por un componente de clase. <br/>
-                                Para cada variable de estado se utilizará un Hook diferente. </p>
+                                Para cada variable de estado se utilizará un <b>Hook</b> diferente. </p>
                             <img src={useSt1} alt="code" /> || <img src={useSt2} alt="code" />
                             <p>En el primer ejemplo no habria una modificación del estado, mostrando el valor por defecto; en el segundo,
                                 al hacer click en el párrafo, iria modificando su estado</p>

@@ -13,8 +13,8 @@ export default class ModeloUser extends React.Component {
                         <Accordion.Header><b>Agregar trait a modelo User</b></Accordion.Header>
                         <Accordion.Body>
                             <h2>Agregar trait a modelo User</h2>
-                            <p>Con el editor de textos abrimos el archivo <b><i>app/Models/User.php</i></b> para verificar que el trait ‘HasApiTokens’ este definido, sino, hay que
-                                definirlo de la siguiente manera:</p>
+                            <p>Con el editor de textos abrimos el archivo <b><i>app/Models/User.php</i></b> para verificar que 
+                            el trait <b>‘HasApiTokens’</b> este definido, sino, hay que definirlo de la siguiente manera:</p>
                                 <img src={user} alt="code" />
 
                         </Accordion.Body>
