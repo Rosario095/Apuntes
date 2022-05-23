@@ -56,7 +56,18 @@ export default class Navbars extends React.Component {
                   </NavDropdown>
                 </NavDropdown>
 
-                <Nav.Link href="#local">Window LocalStorage</Nav.Link>
+                <NavDropdown title="React Router" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="#beneficios">¿Qué es React Router? & Beneficios de React Router</NavDropdown.Item>
+                  <NavDropdown.Item href="#pilares">Componentes pilares de React Router</NavDropdown.Item>
+                  <NavDropdown.Item href="#requis">Requisitos</NavDropdown.Item>
+                  <NavDropdown.Item href="#crea_inst">Crear nuestro proyecto & Instalación de React Router</NavDropdown.Item>
+                  <NavDropdown.Item href="#trabajo">Trabajando con React Router</NavDropdown.Item>
+                  <NavDropdown.Item href="#link">Link</NavDropdown.Item>
+                  <NavDropdown.Item href="#redirect">Redirect</NavDropdown.Item>
+                  <NavDropdown.Item href="#hook">Hook useParams</NavDropdown.Item>
+                </NavDropdown>
+
+                <Nav.Link href="#local">LocalStorage</Nav.Link>
 
                 <NavDropdown title="Protocolo HTTP" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#http">HTTP y Características</NavDropdown.Item>

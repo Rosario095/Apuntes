@@ -33,6 +33,14 @@ import UseState from './components/componentsReact/Comunicacion/UseState';
 import Delegado from './components/componentsReact/Comunicacion/Delegado';
 import CVClass from './components/componentsReact/Comunicacion/CVClass';
 import CVFunc from './components/componentsReact/Comunicacion/CVFunc';
+//Router
+import Beneficios from './components/componentsReact/react_router/Beneficios';
+import Pilares from './components/componentsReact/react_router/Pilares';
+import Requis from './components/componentsReact/react_router/Requis';
+import Crea_inst from './components/componentsReact/react_router/Crea_inst';
+import Trabajo from './components/componentsReact/react_router/Trabajo';
+import Link from './components/componentsReact/react_router/Link';
+import Redirect from './components/componentsReact/react_router/Redirect';
 //LOCALSTORAGE
 import Local from './components/componetsOther/Local';
 //PROTOCOLO
@@ -73,6 +81,8 @@ import ModeloUser from './components/componentsSANCTUM/ModeloUser';
 import Register from './components/componentsSANCTUM/Register';
 import Login from './components/componentsSANCTUM/Login';
 import DataUser from './components/componentsSANCTUM/dataUser';
+import Hook from './components/componentsReact/react_router/Hook';
+/*--------------------------------------------------------------------*/
 
 
 function App() {
@@ -113,6 +123,17 @@ function App() {
       <CVFunc />
       Página de la información: <a href="https://openwebinars.net/">Cursos de Openwbinars</a>
       <br />
+      <h1 id="react_router">REACT ROUTER</h1>
+      <Beneficios/>
+      <Pilares/>
+      <Requis/>
+      <Crea_inst/>
+      <Trabajo/>
+      <Link/>
+      <Redirect/>
+      <Hook/>
+      Página de la información: <a href="https://johnserrano.co/blog/aprende-a-crear-rutas-con-react-router">Aprende a crear rutas con React Router</a>
+      <br/>
       <h1 id="local">WINDOW LOCALSTORAGE</h1>
       <Local />
       Página de la información: <a href="https://www.w3schools.com/jsref/prop_win_localstorage.asp">Window localStorage</a>

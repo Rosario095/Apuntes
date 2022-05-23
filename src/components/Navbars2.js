@@ -14,7 +14,8 @@ export default class Navbars2 extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#react">React</Nav.Link>
-                <Nav.Link href="#local">Window LocalStorage</Nav.Link>
+                <Nav.Link href="#react_router">React Router</Nav.Link>
+                <Nav.Link href="#local">LocalStorage</Nav.Link>
                 <Nav.Link href="#protol">Protocolo HTTP</Nav.Link> 
                 <Nav.Link href="#estado">Códigos de Estado</Nav.Link>
                 <Nav.Link href="#axios">Axios</Nav.Link> 
