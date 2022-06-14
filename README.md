@@ -1,6 +1,6 @@
 # Proyecto de React de organización de Apuntes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este proyecto se recogen de forma organizada todos los apuntes de todos los conocimientos estudiados durante el trascurso de la FCT de 2ºDAW, del curso 2021/2022, como ayuda para amplicar conocimientos o ayuda en caso de estar cursando alguno de los conocimientos aquí incorporados.
 
 ## Available Scripts
 
